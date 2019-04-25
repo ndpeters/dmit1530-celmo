@@ -1,0 +1,66 @@
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+        url('../fonts/montserrat/montserrat-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat/montserrat-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat/montserrat-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat/montserrat-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat/montserrat-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat/montserrat-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-hairline - latin */
+@font-face {
+    font-family: 'Montserrat Hairline';
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Hairline'), local('Montserrat-Hairline'),
+        url('../fonts/montserrat/montserrat-hairline.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*  BASE 16 ... BODY SCALE 112.5%
+    Scale (px): 
+        Assgn4 -- 18 / 24   / 30    / 48    / 60    /--/ 72
+        Proper -- 18 / 23.99 / 31.98 / 42.63 / 56.83 /--/ 75.76
+*/
+
+:root {
+    --h1: 3.157rem;
+    --h2: 2.369rem;
+    --h3: 1.777rem;
+    --h4: 1.333rem;
+}
+
+body {
+    font-size: 112%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    line-height: 1.3333;
+}
+
+.bold {
+    font-weight: 700;
+}
