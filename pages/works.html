@@ -48,7 +48,7 @@
                         <a class="nav-link" href="services.html">services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bold" href="#">works</a>
+                        <a class="nav-link bold" href="works.html">works</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blogs.html">blog</a>
@@ -62,6 +62,26 @@
     </div>
 
     <main>
+        <style>
+            .print-hover {
+                color: rgb(126, 126, 126);
+                list-style-type: none;
+                padding: 10px;
+                position: relative;
+            }
+            .print-hover:hover {
+                color: rgb(126, 126, 126);
+                text-decoration: none;
+            }
+            .large {
+                position: absolute;
+                left: -9999px;
+            }
+            li:hover .large {
+                left: calc(100vw - (25% + 2rem));
+                top: 10%;
+            }
+        </style>
             <section class="container border-top border-dark">
                     <h2 class="mb-5 mt-5 h1 text-center">works</h2>
                     <ul style="width:500px; margin: 0 auto;" class="mb-5 d-flex list-unstyled text-black-50 justify-content-between">
@@ -75,7 +95,10 @@
                             <a class="text-black-50" href="#">art installation</a>
                         </li>
                         <li class="">
-                            <a class="text-black-50" href="#">print design</a>
+                            <span class="large">
+                                <img class="img-fluid" src="../img/award-hover-image.png" alt="placeholder">
+                            </span>
+                            <a class="print-hover" style="margin-left: -10px;" href="awards.html">print design</a>
                         </li>
                     </ul>
             
